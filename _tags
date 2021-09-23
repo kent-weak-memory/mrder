@@ -1,0 +1,13 @@
+<src/**>: package(ppx_deriving.show,ppx_deriving.ord,batteries,oUnit,ocamlgraph)
+<src/**>: include
+
+<test/**>: package(ppx_deriving.show,ppx_deriving.ord,batteries,oUnit,ocamlgraph)
+<test/**>: include
+
+true: debug
+#true: profile
+true: annot
+true: use_menhir
+
+# Warnings
+true: principal, safe_string, strict_formats, strict_sequence, warn(A-42-4-32)

@@ -1,0 +1,4 @@
+*/*.deriv
+*.deriv
+diagrams/
+json/
