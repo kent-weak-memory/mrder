@@ -1,0 +1,9 @@
+# Commit template to tag the ocaml commits in the history
+commit-template
+# Build artefacts 
+_build/*
+*.byte
+*.native
+data/diagrams/*
+data/dbody.tex
+data/diagrams.tex
