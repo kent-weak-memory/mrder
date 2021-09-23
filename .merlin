@@ -1,0 +1,5 @@
+PKG oUnit ppx_deriving.std ppx_deriving.show batteries ocamlgraph stdlib yojson
+S src/**
+S test/**
+B _build/**
+FLG -w A -w -42 -w -4 -w -32

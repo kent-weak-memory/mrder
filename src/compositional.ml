@@ -126,9 +126,6 @@ let args = Arg.align [
   ; "--ppo",
     Arg.Clear run_ppo,
     "  don't run the Ppo_fixed model"
-  ; "--ptr",
-    Arg.Clear run_ptr,
-    "  don't run the AxiomaticBulk model"
   ; "--verbose",
     Arg.Set verbose,
     "  verbose printing"
