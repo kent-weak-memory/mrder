@@ -8,9 +8,9 @@ z := 0;
   r2 := x;
   y := r2
 } ||| {
-  r3 = z;
+  r3 := z;
   y := r3;
   x := 1
 }
 %%
-forbidden (r1 = 1 && r2 = 1 && r3 = 1) [JR=forbidden]
+forbid (r1 = 1 && r2 = 1 && r3 = 1) [JR=forbid]

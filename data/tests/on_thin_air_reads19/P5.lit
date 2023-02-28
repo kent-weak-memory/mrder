@@ -9,7 +9,7 @@ y := 0;
   unlock
 } ||| {
   lock;  
-  r1 = x;
+  r1 := x;
   unlock
 }
 %%
