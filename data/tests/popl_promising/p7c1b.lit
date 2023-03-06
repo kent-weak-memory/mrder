@@ -7,7 +7,7 @@ comment "Section 4.1: Release/Acquire Synchronization; Page 7, Column 1 (b)"
   y.store(1, rel);
   y := 2
 } ||| {
-  r1 = FADD(y, rlx, rlx, 1)
+  r1 := FADD(y, rlx, rlx, 1)
 }} ||| {
   r2 := y.load(acq); // 3
   r3 := x // <> 0
