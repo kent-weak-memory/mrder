@@ -15,4 +15,4 @@ z := 0;
   x := r3
 }
 %%
-allow (r1 = 1 && r2 = 1 && r3 = 1) [Bridging=allow]
+forbid (r1 = 1 && r2 = 1 && r3 = 1) [Bridging=forbid]
