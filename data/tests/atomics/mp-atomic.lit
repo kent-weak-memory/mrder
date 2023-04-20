@@ -11,4 +11,4 @@ y := 0;
   r2 := x.load(rlx)
 }
 %%
-forbid (r1 = 1 && r2 = 0) [Power=allow] "relaxed MP execution"
+forbid (r1 = 1 && r2 = 0) [Power=forbid] "relaxed MP execution"
