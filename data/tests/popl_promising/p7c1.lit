@@ -1,6 +1,9 @@
 name=Page7Column1
 values={0,1}
 comment "Section 4.1: Release/Acquire Synchronization; page 7, column 1"
+x := 0;
+y := 0;
+z := 0;
 %%
 {{
   x := 1;
