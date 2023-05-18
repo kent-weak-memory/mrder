@@ -22,4 +22,4 @@ z := 0;
   z := r2
 }
 %%
-forbid (r1 = 1 && r2 = 1) [Sevcik=forbid]
+allow (r1 = 1 && r2 = 1) [Sevcik=allow]
