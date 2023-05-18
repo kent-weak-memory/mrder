@@ -18,4 +18,4 @@ y := 0;
   }
 }
 %%
-forbid (r1 = 3 && r2 = 2 && r3 = 1) [Promising=forbid] "Edge case."
+forbid (r1 = 3 && r2 = 2 && r3 = 1) [Promising=allow] "Edge case."

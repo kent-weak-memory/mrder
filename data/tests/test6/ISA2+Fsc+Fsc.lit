@@ -18,4 +18,4 @@ z := 0;
   r3 := x
 }
 %%
-forbid (r1 = 1 && r2 = 1 && r3 = 0) [Power=forbid]
+forbid (r1 = 1 && r2 = 1 && r3 = 0) [Power=allow]

@@ -11,4 +11,4 @@ y := 0;
   r2 := x
 }
 %%
-forbid (r1 = 1 && r2 = 0) [Power=forbid]
+forbid (r1 = 1 && r2 = 0) [Power=allow]

@@ -18,4 +18,4 @@ y := 0;
   }
 }
 %%
-allow (r1 = 3 && r2 = 2 && r3 = 1) [Soham=allow] "Edge case."
+forbid (r1 = 3 && r2 = 2 && r3 = 1) [Soham=forbid] "Edge case."

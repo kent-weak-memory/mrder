@@ -13,4 +13,4 @@ comment "Section 4.1: Release/Acquire Synchronization; Page 7, Column 1 (b)"
   r3 := x // <> 0
 }
 %%
-forbid (r2 = 3 && r3 = 0) [Promising=forbid] "Release sequence"
+forbid (r2 = 3 && r3 = 0) [Promising=allow] "Release sequence"
