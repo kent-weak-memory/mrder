@@ -11,4 +11,4 @@ y := 0;
   x := 1
 }
 %%
-forbid (r1 = 1 && r2 = 1) [RC11=forbid]
+allow (r1 = 1 && r2 = 1) [RC11=allow]

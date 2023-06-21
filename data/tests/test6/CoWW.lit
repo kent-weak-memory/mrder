@@ -1,6 +1,7 @@
 name=CoWW
 values={0,1,2}
 %%
+x := 0;
 {
   x := 0;
   x := 1;
@@ -10,5 +11,5 @@ values={0,1,2}
   r2 := x
 }
 %%
-forbid (r1 = 2 && r2 = 1) [] ""
+forbid (r1 = 2 && r2 = 1) [Power=forbid] ""
 
